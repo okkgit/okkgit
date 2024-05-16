@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+	"name": "vitepress dev",
+	"build": {
+		"dockerfile": "DockerFile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"albert.TabOut"
+			]
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [8080],
+
+	"remoteUser": "ok"
+}
